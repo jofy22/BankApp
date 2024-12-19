@@ -1,0 +1,85 @@
+.navbar a{
+    color: white;
+    font-size: x-large;
+}
+.navbar a:hover{
+    color: aqua;
+}
+/* Main section styling */
+.main-section {
+    padding: 30px;
+    text-align: center;
+    background-image: url(https://wallpapercave.com/wp/wp6602853.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-section h2 {
+    color: white;
+    border: #00ffff;
+}
+
+.main-section h3 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* Flexbox for deposit/withdraw boxes */
+.transaction-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.box {
+    background-color: transparent;
+    border: solid 2px #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.box h4 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.box input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.box button {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 15px;
+    padding: 10px;
+    
+    border-radius: 5px;
+    background-color: transparent;
+    min-height: 30px;
+    color: white;
+    font-weight: bold;
+    
+}
